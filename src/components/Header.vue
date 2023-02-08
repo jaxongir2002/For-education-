@@ -57,7 +57,7 @@ $logo-size: 3rem;
 
 
         &__img {
-            width: $logo-size;
+      width: $logo-size;
             height: $logo-size;
         }
 
