@@ -1,15 +1,15 @@
 <template>
     <div class="header">
-        <Logo/>
+        <Logo />
 
-        <div class="header__navbar">
+          <div class="header__navbar">
             <a class="header__navbar__text" href="#products">Products</a>
             <a class="header__navbar__text" href="#company">Company</a>
             <a class="header__navbar__text" href="#pricing">Pricing</a>
         </div>
 
         <div class="header__signup bg-danger">
-            <p class="header__signup__text">Sign Up</p>
+            <p class="header__signup_ bg-danger_text">Sign Up</p>
         </div>
     </div>
 </template>
@@ -51,7 +51,7 @@ $logo-size: 3rem;
         left: var(--logo-sideSpacing);
 
         cursor: pointer;
-        
+
 
         &__img {
             width: $logo-size;
@@ -88,7 +88,7 @@ $logo-size: 3rem;
 
             height: 100%;
             width: 7rem;
-            
+
             display: flex;
             align-items: center;
             justify-content: center;
