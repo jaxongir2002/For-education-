@@ -8,7 +8,7 @@
             <a class="header__navbar__text" href="#pricing">Pricing</a>
         </div>
 
-        <div class="header__signup bg-danger">
+        <div class="header__signup  bg-danger">
             <p class="header__signup_ bg-danger_text">Sign Up</p>
         </div>
     </div>
@@ -31,6 +31,9 @@ export default {
 
 <style lang="scss">
 $logo-size: 3rem;
+.bg-danger{
+    background-color: darkred !important;
+}
 
 .header {
     display: flex;
@@ -65,7 +68,7 @@ $logo-size: 3rem;
 
         &:hover &__text {
             transition: 200ms;
-            color: var(--color-green);
+            color: darkred !important;
         }
     }
 
