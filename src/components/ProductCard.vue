@@ -41,7 +41,7 @@ export default {
 
     &:hover &__content__title {
         transition: 200ms;
-        color: var(--color-green);
+        color: darkred;
     }
 
     &__content {

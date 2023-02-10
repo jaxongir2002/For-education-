@@ -7,6 +7,7 @@
         <Pricing/>
         <Footer/>
 		<Top/>
+	   <Footer1></Footer1>
     </div>
 </template>
 
@@ -18,6 +19,7 @@ import Top from "./components/Top.vue";
 import Company from "./components/Company.vue";
 import Footer from "./components/Footer.vue";
 import Pricing from "./components/Pricing.vue";
+import Footer1 from "./components/Footer1.vue";
 
 export default {
     name: "Home",
@@ -28,7 +30,8 @@ export default {
         Top,
         Company,
         Footer,
-        Pricing
+        Pricing,
+		Footer1
     }
 };
 </script>
@@ -37,7 +40,6 @@ export default {
 * {
     padding: 0;
     margin: 0;
-
 	font-family: "visby";
 }
 
@@ -45,7 +47,6 @@ html,
 body {
 	width: 100%;
 	height: 100%;
-
 	scroll-behavior: smooth;
 	background-color: rgb(250, 250, 250);
 	//overflow-x: hidden;
@@ -100,7 +101,7 @@ body {
 
 
 :root {
-	--color-green: #5dd39e;
+	--color-green: rgb(216, 73, 73);
 	--color-blue: #1c37a3;
 	--color-blue-light: #425ab9;
 	--color-yellowGreen: #bce784;
